@@ -14,8 +14,8 @@ Le numéro précédent les énoncés ci-dessou, indique aussi le numéro de l'ex
    - Suggestion: Mettre un rectangle autour des mains (avec cv2.rectangle) pour ajouter du texte à une position voulue. (***facultatif et n'affecte pas les points***)
 4. **(7.5%)** Ajouter le nombre de doigts présent à côté des doigts vus.
 5. **(20%)** Mesurer la distance entre deux points et afficher une ligne entre ces deux points. Vous devez spécifier la position des points vous-mêmes.
-   **(5%)** 5.1 Entre le pouce et l'index d'une même main.
-   **(10%)** 5.2 Entre les deux index des mains.
+   - **(5%)** 5.1 Entre le pouce et l'index d'une même main.
+   - **(10%)** 5.2 Entre les deux index des mains.
 
 ### Points Bonus:
 (***facultatif***)
