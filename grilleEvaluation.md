@@ -1,4 +1,4 @@
-#Grille de Correction
+# Grille de Correction
 
 1. **(🚧 / 7.5%)** Afficher  les lignes sur la main avec opencv.
    
