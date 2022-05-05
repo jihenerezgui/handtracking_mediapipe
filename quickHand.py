@@ -1,11 +1,3 @@
-"""""
-Hand Tracking Module
-based on: cvzone
-Website: https://www.computervision.zone/
-
-customized by gaspard_savoureux
-"""
-
 import cv2
 from matplotlib.transforms import Bbox
 import mediapipe as mp
@@ -119,7 +111,7 @@ class HandDetector:
     def findDistance(self, p1, p2, img=None):
         pass
 
-#TODO à compléter
+    #TODO à compléter
     def infoOnHand(self,
                img,
                hand,
