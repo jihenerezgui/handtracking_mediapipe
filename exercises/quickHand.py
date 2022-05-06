@@ -66,7 +66,7 @@ class HandDetector:
                     lmList.append([id,cx,cy])
                 
                 #TODO utiliser mp_draw.draw_landmarks pour dessiner les points sur la main.
-                mp_draw.draw_landmarks(img, handLms, mp_hand.HAND_CONNECTIONS)
+                
                 ## bbox
                 xmin, xmax = min(xList), max(xList)
                 ymin, ymax = min(yList), max(yList)
