@@ -30,7 +30,7 @@ Collection of handedness of the detected/tracked hands (i.e. is it a left or rig
 
 Note that handedness is determined assuming the input image is mirrored, i.e., taken with a front-facing/selfie camera with images flipped horizontally. If it is not the case, please swap the handedness output in the application.
 
-### 2. Exemple simple
+### 3. Exemple simple
 ```py
 import cv2
 import mediapipe as mp
