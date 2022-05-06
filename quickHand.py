@@ -42,6 +42,7 @@ class HandDetector:
         """
         mp_draw=mp.solutions.drawing_utils
         mp_hand=mp.solutions.hands
+        mp_styles = mp.solutions.drawing_styles
 
         imgRGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
         self.results = self.hands.process(imgRGB)
@@ -63,9 +64,8 @@ class HandDetector:
                     h,w,c=img.shape
                     cx,cy= int(lm.x*w), int(lm.y*h)
                     lmList.append([id,cx,cy])
-
-                mp_draw.draw_landmarks(img, handLms, mp_hand.HAND_CONNECTIONS)
-
+                
+                #TODO utiliser mp_draw.draw_landmarks pour dessiner les points sur la main.
 
                 ## bbox
                 xmin, xmax = min(xList), max(xList)

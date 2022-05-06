@@ -6,6 +6,11 @@
 Les exercices sont déjà complétés et c'est à vous de compléter la librairie que les exercices vont utilisés!
 Compléter le fichier [quickHand.py](quickHand.py) pour que les fichiers d'exercices fonctionnent.
 > **IMPORTANT**: Chaque exercice doit **toujours** être fonctionnel après la modification de [quickHand.py](quickHand.py)
+> 
+> De plus, si vôtre caméra ne marche pas changer la valeur de VideoCapture.
+>```py
+>cap = cv2.VideoCapture(0)
+>```
 
 Le numéro précédent les énoncés ci-dessou, indique aussi le numéro de l'exercise.
 1. **(7.5%)** Afficher  les lignes sur la main avec opencv.
