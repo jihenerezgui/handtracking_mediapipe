@@ -1,5 +1,5 @@
 ## La classe **Hands**:
->Toute la documentation est en anglais et j'ai pas le moindrement envie de traduire. Considéré ceci comme un exercise de pour pratique votre anglais. ✌️
+>Toute la documentation est en anglais et j'ai pas le moindrement envie de traduire. Considéré ceci comme un exercise pour pratiquee votre anglais. ✌️
 ### 1. Options de configurations:
    ```py
    mp_hand.Hands(static_image_mode=False,      
