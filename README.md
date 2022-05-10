@@ -7,12 +7,12 @@ Les exercices sont déjà complétés et c'est à vous de compléter la librairi
 Compléter le fichier [quickHand.py](./exercises/quickHand.py) pour que les fichiers d'exercices fonctionnent.
 > **IMPORTANT**: Chaque exercice doit **toujours** être fonctionnel après la modification de [quickHand.py](./exercises/quickHand.py)
 > 
-> De plus, si vôtre caméra ne marche pas changer la valeur de VideoCapture.
+> De plus, si votre caméra ne marche pas changez la valeur de VideoCapture.
 >```py
 >cap = cv2.VideoCapture(0)
 >```
 
->Le numéro précédent les énoncés ci-dessou, indique aussi le numéro de l'exercise.
+>Le numéro précédent les énoncés ci-dessous, indique aussi le numéro de l'exercice.
 
 [1.](exercises/exercise1.py) **(7.5%)**Afficher  les lignes sur la main avec opencv.
 
@@ -24,11 +24,11 @@ Compléter le fichier [quickHand.py](./exercises/quickHand.py) pour que les fich
 [4.](exercises/exercise4.py) **(7.5%)** Ajouter le nombre de doigts présent à côté des doigts vus.
 
 [5.](exercises/exercise5.py) **(20%)** Mesurer la distance entre deux points et afficher une ligne entre ces deux points. Vous devez spécifier la position des points vous-mêmes.
-   - **(5%)** [5.1](exercises/exercise5.py) Entre le pouce et l'index d'une même main.
-   - **(10%)** [5.2](exercises/exercise5.py) Entre les deux index des mains.
+   - **(5%)** [5.1](exercises/exercise5.py) entre le pouce et l'index d'une même main.
+   - **(10%)** [5.2](exercises/exercise5.py) entre les deux index des mains.
 
 ### Points Bonus:
 (***facultatif***)
-1. **(5%)** Rendre la taille et la position du texte dynamique selon la position de la main.
-2. **(5%)** Avoir le bon compte de doigts même si les mains sont inversées.
-3. **(5%)** Typer les variables, lorsque pertinent. Par exemple, certains paramètres dans les fonctions ne sont pas typés alors qu'il pourrait être très pertinent qu'ils le soient.
+1. **(5%)** rendre la taille et la position du texte dynamique selon la position de la main.
+2. **(5%)** avoir le bon compte de doigts même si les mains sont inversées.
+3. **(5%)** typer les variables, lorsque pertinent. Par exemple, certains paramètres dans les fonctions ne sont pas typés alors qu'il pourrait être très pertinent qu'ils le soient.
