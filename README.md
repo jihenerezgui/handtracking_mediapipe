@@ -24,8 +24,8 @@ Compléter le fichier [quickHand.py](./exercises/quickHand.py) pour que les fich
 [4.](exercises/exercise4.py) **(7.5%)** Ajouter le nombre de doigts présent à côté des doigts vus.
 
 [5.](exercises/exercise5.py) **(20%)** Mesurer la distance entre deux points et afficher une ligne entre ces deux points. Vous devez spécifier la position des points vous-mêmes.
-   - **(5%)** [5.1](exercises/exercise5.py) entre le pouce et l'index d'une même main.
-   - **(10%)** [5.2](exercises/exercise5.py) entre les deux index des mains.
+   - **(5%)** [5.1](exercises/exercise5.1.py) entre le pouce et l'index d'une même main.
+   - **(10%)** [5.2](exercises/exercise5.2.py) entre les deux index des mains.
 
 ### Points Bonus:
 (***facultatif***)
