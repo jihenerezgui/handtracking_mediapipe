@@ -65,7 +65,7 @@ class HandDetector:
                     cx,cy= int(lm.x*w), int(lm.y*h)
                     lmList.append([id,cx,cy])
                 
-                #TODO utiliser mp_draw.draw_landmarks pour dessiner les points sur la main.
+                #TODO utiliser mp_draw.draw_landmarks pour dessiner les points sur la main. pour répondre question 1
                 
                 ## bbox
                 xmin, xmax = min(xList), max(xList)
@@ -103,17 +103,19 @@ class HandDetector:
         else:
             return allHands
 
-    #TODO à compléter
+    #TODO à compléter pour répondre à la question2
     def fingersUp(self, myHand):
         pass
 
-    #TODO à compléter
-    def findDistance(self, p1, p2, img=None):
-        pass
-
-    #TODO à compléter
+    
+    #TODO à compléter pour répondre aux questions 3 et 4
     def infoOnHand(self,
                img,
                hand,
                textToShow:list=None):
         pass
+    #TODO à compléter pour répondre aux questions 5.1 et 5.2
+    def findDistance(self, p1, p2, img=None):
+        pass
+
+   
