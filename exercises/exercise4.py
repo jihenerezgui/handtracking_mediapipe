@@ -11,7 +11,7 @@ def main():
         for hand in hands:
             fingers = detector.fingersUp(hand)
             detector.infoOnHand(image, hand, [f"{fingers} doigts"])
-
+             #compléter la fonction infoHand dans le fichier quickHand pour ajouter le nombre de doights à coté des doights vus.
         cv2.imshow("Image", image)
         k = cv2.waitKey(1)
         if k == ord('q'):
