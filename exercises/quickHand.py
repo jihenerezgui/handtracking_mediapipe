@@ -115,5 +115,5 @@ class HandDetector:
     def infoOnHand(self,
                img,
                hand,
-               textToShow):
+               textToShow:list=None):
         pass
