@@ -1,7 +1,7 @@
 import cv2
 from quickHand import HandDetector
 
-cap = cv2.VideoCapture(-1)
+cap = cv2.VideoCapture(0)
 detector = HandDetector(detectionCon=0.8,maxHands=2)
 
 def main():
